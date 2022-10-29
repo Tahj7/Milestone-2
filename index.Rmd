@@ -1,14 +1,18 @@
 ---
-title: "Gov 50 Final Project"
-author: "Your Name Here"
-description: "My final project"
+title: "Milestone 2"
+author: "Tahj Johnson"
+description: "Milestone 2 "
 output:
   distill::distill_article:
     self_contained: false
 ---
 
+```{r}
+conflicts <-read.csv("conflict_data.csv")
+```
 
 
-## Project thoughts
+## Proposal
 
-I am interested in exploring data related to...
+Do more domestic or international conflict occur in the Middle East after the United States became more involved after 2001? I hypoithesize that conflicts between domestic forces/terrorist groups and the US are the most dominant forms of conflict as opposed to domestic uprisings because the United States had a policy of war on terror in the Middle East, where aggressive offesnive action was taken to acheive policy goals. therefore, the explanoatory varibale in this case is if US troops were present in the regions of conflcit. The dependent varibale is the type of conflict, being either two domestic actors or a domestic actor and the US. You can measure this by either creatting a bar graph of if US was there on the x axis and the probabiliity of each type of conflict on the y. This will require seperate graphs. The data seems to show a good mix, but most actors involved seem to be from the middle east. 
+.
